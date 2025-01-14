@@ -22,25 +22,50 @@ Select ONE Additional
     <title>Unit 7 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Arial, sans-serif";
+      }
+
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      canvas {
+        background-color: darkblue;
+        margin: 20px auto;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      ol {
+        font-style: italic;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>
-      New Year, New Me
-    </h1>
+    <h1>New Year, New Me</h1>
     <div class="main">
       <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       <div>
-        <h2>
-          2025 Goals
-        </h2>
+        <h2>2025 Goals</h2>
         <ol>
-          <li>Spend More Time Coding </li>
+          <li>Spend More Time Coding</li>
         </ol>
       </div>
     </div>
-        
   </body>
 </html>
 
