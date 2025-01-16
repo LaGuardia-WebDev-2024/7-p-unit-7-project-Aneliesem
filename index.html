@@ -13,7 +13,6 @@ Select ONE Additional
 [ no ] Feature 5 - Animate a color change
 -->
 
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,35 +22,29 @@ Select ONE Additional
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
     <style>
-      body {
-        background-color: black;
+      body
+      {
+        background-color: lightpink;
         color: white;
         font-family: "Arial, sans-serif";
       }
-
-      h1 {
-        text-align: center;
-        text-decoration: underline;
+      #travel {
+        border-radius: 100%;
+        object-fit: cover;
+      }
+      #dance {
+        border-radius: 100%;
+        object-fit: cover;
+      }
+      #party {
+        border-radius: 100%;
+        object-fit: cover;
       }
 
       .main {
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-
-      canvas {
-        background-color: darkblue;
-        margin: 20px auto;
-      }
-
-      h2 {
-        font-size: 1.5em;
-      }
-
-      ol {
-        font-style: italic;
-      }
     </style>
   </head>
 
@@ -62,10 +55,30 @@ Select ONE Additional
       <div>
         <h2>2025 Goals</h2>
         <ol>
-          <li>Spend More Time Coding</li>
+          <li>travel</li>
+          <li>Dance more</li>
+          <li>have fun with friends</li>
         </ol>
       </div>
     </div>
+    <img
+      id="travel"
+      src="https://cdn.glitch.global/788e1ceb-609d-49ad-835b-43d7dd975a1b/download.jpg?v=1736958854445"
+      width="150"
+      height="150"
+    />
+    <img
+      id="dance"
+      src="https://cdn.glitch.global/788e1ceb-609d-49ad-835b-43d7dd975a1b/6999A3AF-2248-4868-B1FA29778EB2A881_source.webp?v=1736958896486"
+      width="150"
+      height="150"
+    />
+    <img
+      id="party"
+      src="https://cdn.glitch.global/788e1ceb-609d-49ad-835b-43d7dd975a1b/download-1.jpg?v=1736958907415"
+      width="150"
+      height="150"
+    />
   </body>
 </html>
 
